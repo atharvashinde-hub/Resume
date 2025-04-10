@@ -43,7 +43,7 @@ length(ranked_genes)
 library(fgsea)
 
 # Replace with the correct path to your downloaded file
-gmt_file <- "/Users/atharva/Downloads/m3.all.v2024.1.Mm.symbols.gmt"
+gmt_file <- "/Users/atharva/Downloads/m5.go.bp.v2024.1.Mm.symbols.gmt"
 gene_sets <- gmtPathways(gmt_file)
 length(gene_sets)
 # Filter gene sets: keep only those with 10-5000 genes for focused analysis

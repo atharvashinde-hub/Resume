@@ -32,7 +32,7 @@ gp = GProfiler(return_dataframe=True)
 # Run GO enrichment analysis
 results = gp.profile(
     organism='mmusculus',  # Mouse genes (use 'hsapiens' for human)
-    query=pos_genes,
+    query=neg_genes,
     sources=['GO:BP'],     # GO Biological Processes
     significance_threshold_method='fdr',
     no_evidences=False,    # Include gene intersections
